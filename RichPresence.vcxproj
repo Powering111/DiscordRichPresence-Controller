@@ -160,8 +160,6 @@
     <ClInclude Include="include\discord\types.h" />
     <ClInclude Include="include\discord\user_manager.h" />
     <ClInclude Include="include\discord\voice_manager.h" />
-    <ClInclude Include="resource.h" />
-    <ClInclude Include="resource1.h" />
     <ClInclude Include="src\resource.h" />
   </ItemGroup>
   <ItemGroup>
@@ -182,7 +180,7 @@
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="RichPresence1.rc" />
+    <ResourceCompile Include="res\RichPresence.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
