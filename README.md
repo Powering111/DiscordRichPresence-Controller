@@ -1,1 +1,1 @@
-# RichPresence
+# DiscordRichPresence-Controller
